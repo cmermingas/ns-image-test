@@ -1,0 +1,14 @@
+<StackLayout>
+    <StackLayout orientation="horizontal">
+        <Button text="Use Scale" [class.active]="useScale" (tap)="toggleUseScale()"></Button>
+    </StackLayout>
+
+    <ListPicker #listPicker
+                [items]="_listPickerItems"
+                [selectedIndex="currentFrame"
+                (selectedIndexChange)="listPickerChange(listPicker)">
+    </ListPicker>
+
+    <Button #imageWidget class="imageWidget"></Button>
+
+</StackLayout>

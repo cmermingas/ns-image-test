@@ -1,0 +1,20 @@
+﻿button, label, stack-layout {
+    horizontal-align: center;    
+}
+
+button {
+    padding: 10;
+    font-size: 16;
+    border-width: 2;
+    border-color: #f0f0f0;
+    border-style: solid;
+}
+
+button.active {
+    background-color: #f0f0f0;
+}
+
+.imageWidget {
+    padding: 0;
+    background-repeat: 0;
+}
